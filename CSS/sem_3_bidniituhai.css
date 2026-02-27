@@ -66,7 +66,7 @@ h1 {
     color: #fffbf2;
 }
 
-header.header-image p {
+header.header-image {
     font-size: 1rem;
     max-width: 600px;
     margin-top: 1rem;
