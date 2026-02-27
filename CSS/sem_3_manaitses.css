@@ -56,7 +56,7 @@ nav ul li a:hover {
 }
 
 header.header-image {
-    background: url('../sem3-images/home3.jpg') center center/cover no-repeat;
+    background: url('/sem3-images/home3.jpg') center center/cover no-repeat;
     height: 70vh;
     position: relative;
     display: flex;
