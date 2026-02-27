@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Захиалга</title>
+    <link rel="stylesheet" href="CSS\page_3.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Захиалгын форм</h1>
+        <p>Мэдээллээ бүрэн оруулна уу.</p>
+
+        <form action="" method="post">
+
+            <label for="name">Таны нэр:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Таны имэйл хаяг:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Таны утасны дугаар:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="platform">Платформ сонгох:</label>
+            <select id="platform" name="platform" required>
+                <optgroup label="Гар утасны апп">
+                    <option value="app_option1">Сонголт 1</option>
+                    <option value="app_option2">Сонголт 2</option>
+                </optgroup>
+                <optgroup label="Вэб">
+                    <option value="web_option1">Сонголт 1</option>
+                    <option value="web_option2">Сонголт 2</option>
+                </optgroup>
+            </select>
+
+            <input type="submit" value="Захиалга өгөх" class="btn-submit">
+            <p class="s">Захиалах товчийг дарснаар та манай <span>Үйлчилгээний нөхцөлүүд</span>-ийг зөвшөөрсөн болно.</p>
+        </form>
+
+        <footer>
+            <p>&copy; 2026 Buyan Ganbaatar.</p>
+        </footer>
+    </div>
+
+</body>
+</html>

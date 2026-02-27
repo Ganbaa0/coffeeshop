@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    background-color: #f4f4f4;
+}
+
+.fa-solid.fa-mug-hot {
+    color: #ac7e68;
+    margin-right: 0.5rem;
+}
+
+span {
+    color: #ac7e68;
+}
+nav {
+    background: #222;
+    color: #fffbf2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0.8rem 2rem;
+}
+
+nav h3 {
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    color: #fffbf2;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #ac7e68;
+    color: #fff;
+}
+
+.text-jijig {
+    font-size: 1rem;
+    color: #ac7e68;
+}
+
+h1{
+    font-size: 3rem;
+    color: #fffbf2;
+}
+
+header {
+    background: url(../sem3-images/home1.jpg) no-repeat center center/cover;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .overlay {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0 1rem;
+}
+
+section {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#sec1 {
+    padding-top: 2rem;
+    background-color: #fffbf2;
+}
+#sec1 p {
+    line-height: 2.5;       
+    margin-top: 0.5rem;     
+    margin-bottom: 1.5rem;  
+}
+
+.sec_div1 {
+    flex: 1; 
+}
+
+.sec1_img {
+    flex: 1;
+}
+
+.sec1_img img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    border: 3px solid #222;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#sec2 {
+    background: url(../sem3-images/home2.jpg) no-repeat center center/cover;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #fffbf2;
+}
+#sec2 div {
+    position: absolute;
+    top: 55%;
+}
+
+#sec2 p {
+    color: #fffbf2;
+    border: 2px solid #222;
+    padding: 1rem;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#sec2 p:hover {
+    border-color: #222;
+    background: #ac7e68;
+}
+
+#sec3 {
+    background-color: #e8e0d9;
+    padding: 4rem 2rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+#sec3 p {
+    line-height: 2;
+    margin-bottom: 1rem;
+}
+
+.sec_div3 {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.sec3_p {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 700px;
+    text-align: left;
+}
+
+.sec3_p h4 {
+    color: #ac7e68;
+    font-weight: 600;
+}
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
